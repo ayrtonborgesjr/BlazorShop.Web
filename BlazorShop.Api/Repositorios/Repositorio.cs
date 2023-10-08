@@ -32,8 +32,6 @@ public abstract class Repositorio<TEntidade> : IRepositorio<TEntidade> where TEn
     public virtual async Task<TEntidade?> Buscar(Expression<Func<TEntidade, bool>> expressao) =>
         await Consulta.Where(expressao).FirstOrDefaultAsync();
 
-    public Task<bool> Existe(Expression<Func<TEntidade, bool>> expressao) => Consulta.AnyAsync(expressao);
-
     public virtual async Task<dynamic> Buscar(Filtro<TEntidade> paginacao)
     {
         paginacao.PrepararPaginacao();
@@ -52,4 +50,6 @@ public abstract class Repositorio<TEntidade> : IRepositorio<TEntidade> where TEn
 
         return new { Lista = resultado, Total = total };
     }
+
+    public Task<bool> Existe(Expression<Func<TEntidade, bool>> expressao) => Consulta.AnyAsync(expressao);
 }
