@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShow.Web", "BlazorSho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShop.Api", "BlazorShop.Api\BlazorShop.Api.csproj", "{50CB1B8E-698E-4C7A-BF8F-D05FB5C200F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShop.Models", "BlazorShop.Models\BlazorShop.Models.csproj", "{53E94500-52AF-4AF9-9C85-37E5FD8118B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShop.Dominio", "BlazorShop.Dominio\BlazorShop.Dominio.csproj", "{53E94500-52AF-4AF9-9C85-37E5FD8118B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorShop.Aplicacao", "BlazorShop.Aplicacao\BlazorShop.Aplicacao.csproj", "{B3CD81C9-862C-4240-88CC-8D93BEC6A083}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{53E94500-52AF-4AF9-9C85-37E5FD8118B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E94500-52AF-4AF9-9C85-37E5FD8118B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E94500-52AF-4AF9-9C85-37E5FD8118B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CD81C9-862C-4240-88CC-8D93BEC6A083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CD81C9-862C-4240-88CC-8D93BEC6A083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CD81C9-862C-4240-88CC-8D93BEC6A083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CD81C9-862C-4240-88CC-8D93BEC6A083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

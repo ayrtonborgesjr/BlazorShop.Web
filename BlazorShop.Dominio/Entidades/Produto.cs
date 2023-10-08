@@ -1,6 +1,6 @@
 ﻿using Flunt.Br;
 
-namespace BlazorShop.Models.Entidades
+namespace BlazorShop.Dominio.Entidades
 {
 	public sealed class Produto : Entidade
 	{

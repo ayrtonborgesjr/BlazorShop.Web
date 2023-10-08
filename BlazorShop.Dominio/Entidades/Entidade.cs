@@ -1,6 +1,6 @@
 ﻿using Flunt.Notifications;
 
-namespace BlazorShop.Models.Entidades;
+namespace BlazorShop.Dominio.Entidades;
 
 public abstract class Entidade : Notifiable<Notification>
 {

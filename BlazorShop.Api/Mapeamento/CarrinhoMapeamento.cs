@@ -1,4 +1,4 @@
-﻿using BlazorShop.Models.Entidades;
+﻿using BlazorShop.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

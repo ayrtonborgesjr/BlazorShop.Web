@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using Flunt.Br;
 
-namespace BlazorShop.Models.Entidades;
+namespace BlazorShop.Dominio.Entidades;
 
 public sealed class Categoria : Entidade
 {

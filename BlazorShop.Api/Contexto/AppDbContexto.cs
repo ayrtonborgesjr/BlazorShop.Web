@@ -1,5 +1,5 @@
 ﻿using BlazorShop.Api.Mapeamento;
-using BlazorShop.Models.Entidades;
+using BlazorShop.Dominio.Entidades;
 using Flunt.Notifications;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ValueGeneration;
