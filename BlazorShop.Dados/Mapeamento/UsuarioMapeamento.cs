@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace BlazorShop.Api.Mapeamento;
+namespace BlazorShop.Dados.Mapeamento;
 
 internal sealed class UsuarioMapeamento : MapeamentoBase<Usuario>
 {

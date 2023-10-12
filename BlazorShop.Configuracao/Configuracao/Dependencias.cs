@@ -1,13 +1,16 @@
-﻿using BlazorShop.Api.Contexto;
-using BlazorShop.Api.Repositorios;
+﻿using BlazorShop.Dados.Contexto;
+using BlazorShop.Dados.Repositorios;
 using BlazorShop.Aplicacao.Contratos;
+using BlazorShop.Aplicacao.Servicos.Produtos;
 using BlazorShop.Aplicacao.Servicos.Usuarios;
 using BlazorShop.Dominio.Contratos.Negocio.Usuarios;
 using BlazorShop.Dominio.Contratos.Repositorios;
 using BlazorShop.Dominio.Negocio;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace BlazorShop.Api.Configuracao;
+namespace BlazorShop.Configuracao.Configuracao;
 
 public static class Dependencias
 {
@@ -24,11 +27,13 @@ public static class Dependencias
     {
         // Serviços
         servicos.AddScoped<IBuscaUsuarioServico, BuscaUsuarioServico>();
+        servicos.AddScoped<IBuscaProdutoServico, BuscaProdutoServico>();
 
         // Negócio
         servicos.AddScoped<ICadastraUsuarioNegocio, CadastraUsuarioNegocio>();
 
-        // Repositorio
+        // Repositório
         servicos.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+        servicos.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
     }
 }

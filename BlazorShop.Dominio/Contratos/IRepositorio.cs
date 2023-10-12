@@ -10,5 +10,4 @@ public interface IRepositorio<TEntidade> where TEntidade : Entidade
     Task<TEntidade?> Buscar(Expression<Func<TEntidade, bool>> expressao);
     Task<dynamic> Buscar(Filtro<TEntidade> paginacao);
     Task<bool> Existe(Expression<Func<TEntidade, bool>> expressao);
-
 }

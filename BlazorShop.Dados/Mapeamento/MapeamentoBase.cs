@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.ValueGeneration;
 
-namespace BlazorShop.Api.Mapeamento;
+namespace BlazorShop.Dados.Mapeamento;
 
 internal abstract class MapeamentoBase<TEntidade> : IEntityTypeConfiguration<TEntidade> where TEntidade : Entidade
 {

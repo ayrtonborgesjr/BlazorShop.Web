@@ -1,4 +1,4 @@
-﻿using BlazorShop.Api.Contexto;
+﻿using BlazorShop.Dados.Contexto;
 using BlazorShop.Dominio.Contratos;
 using BlazorShop.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
@@ -7,7 +7,7 @@ using System.Linq.Dynamic.Core;
 using LinqKit;
 using BlazorShop.Dominio;
 
-namespace BlazorShop.Api.Repositorios;
+namespace BlazorShop.Dados.Repositorios;
 
 public abstract class Repositorio<TEntidade> : IRepositorio<TEntidade> where TEntidade : Entidade
 {

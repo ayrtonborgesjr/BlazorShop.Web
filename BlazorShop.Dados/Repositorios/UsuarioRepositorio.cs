@@ -1,9 +1,9 @@
-﻿using BlazorShop.Api.Contexto;
+﻿using BlazorShop.Dados.Contexto;
 using BlazorShop.Dominio.Contratos.Repositorios;
 using BlazorShop.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorShop.Api.Repositorios;
+namespace BlazorShop.Dados.Repositorios;
 
 public sealed class UsuarioRepositorio : Repositorio<Usuario>, IUsuarioRepositorio
 {

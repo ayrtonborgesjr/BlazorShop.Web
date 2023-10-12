@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BlazorShop.Aplicacao\BlazorShop.Aplicacao.csproj" />
+    <ProjectReference Include="..\BlazorShop.Configuracao\BlazorShop.Configuracao.csproj" />
     <ProjectReference Include="..\BlazorShop.Dominio\BlazorShop.Dominio.csproj" />
   </ItemGroup>
 

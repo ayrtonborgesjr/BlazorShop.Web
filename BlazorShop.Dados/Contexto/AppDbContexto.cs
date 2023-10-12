@@ -1,10 +1,8 @@
-﻿using BlazorShop.Api.Mapeamento;
+﻿using BlazorShop.Dados.Mapeamento;
 using BlazorShop.Dominio.Entidades;
-using Flunt.Notifications;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ValueGeneration;
 
-namespace BlazorShop.Api.Contexto;
+namespace BlazorShop.Dados.Contexto;
 
 public class AppDbContexto : DbContext
 {

@@ -6,11 +6,11 @@ namespace BlazorShop.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class UsuarioController : BaseController
+public class UsuariosController : BaseController
 {
     private readonly IBuscaUsuarioServico _buscaUsuarioServico;
 
-    public UsuarioController(IBuscaUsuarioServico buscaUsuarioServico)
+    public UsuariosController(IBuscaUsuarioServico buscaUsuarioServico)
     {
         _buscaUsuarioServico = buscaUsuarioServico;
     }

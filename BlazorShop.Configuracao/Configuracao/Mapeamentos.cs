@@ -2,9 +2,9 @@
 using BlazorShop.Dominio.Entidades;
 using Mapster;
 
-namespace BlazorShop.Api.Configuracao;
+namespace BlazorShop.Configuracao.Configuracao;
 
-public static class Mapeamento
+public static class Mapeamentos
 {
     public static void Registrar()
     {
